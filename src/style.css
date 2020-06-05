@@ -1,2 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.weather-app-border {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 2px solid #191970;
+    border-radius: 15px;
+    padding: 20px;
+}
+
 h1 {
-    color: blue;}
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 200;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
