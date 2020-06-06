@@ -11,8 +11,8 @@ body {
 }
 
 h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 40px;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 0px;
@@ -30,6 +30,31 @@ li {
     font-size: 18px;
     line-height: 21px;
     text-align: left;
+}
+
+.form-inline {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.current-temperature {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.today-icon {
+    font-size: larger;
+}
+
+#temperature {
+    font-size: 32px;
+}
+
+.units {
+    font-size: 16px;
+    position: relative;
+    top: -10px;
 }
 
 .myName {
