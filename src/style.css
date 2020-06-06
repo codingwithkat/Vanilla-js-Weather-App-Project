@@ -1,6 +1,7 @@
 body {
     padding-top: 35px;
     font-family: 'Courier New', Courier, monospace;
+    color: #191970;
     background-color: #faeee7;
 }
 
@@ -88,10 +89,12 @@ h2 {
 } 
 
 #search-button, #location-button {
-    color: #191970;
+    background-color: #191970;
+    color: #a1c4fd;
     border: 1px solid #191970;
 }
 
 #search-button:hover, #location-button:hover {
-    background-color: #F5F5F5;
+    color: #191970;
+    background-color:#a1c4fd;
 }
