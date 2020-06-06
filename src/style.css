@@ -102,3 +102,7 @@ h2 {
     padding-left: 10px;
 }
 
+#day-descrip {
+    text-transform: capitalize;
+}
+
