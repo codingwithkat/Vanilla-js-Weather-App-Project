@@ -1,3 +1,5 @@
+/* main parts */
+
 body {
     padding-top: 35px;
     font-family: 'Courier New', Courier, monospace;
@@ -19,36 +21,7 @@ body {
     margin: 10px auto;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: bolder;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 12px;
-    margin-bottom: 0px;
-    display: block;
-    margin: 0 auto;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.col-6 li {
-    list-style-type: none;
-    font-size: 20px;
-    line-height: 21px;
-    display: block;
-    margin: 0 auto;
-    word-wrap: break-word;
-}
-
-h2 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
+/* within the web app, the search bar and buttons */
 
 .form-inline {
     padding-top: 10px;
@@ -56,32 +29,6 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
-
-#temperature {
-    padding-top: 20px;
-    padding-left: 8px;
-    font-size: 36px;
-}
-
-.units {
-    font-size: 16px;
-    position: relative;
-    top: -10px;
-}
-
-.today-emoji {
-    font-size: 38px;
-    padding-left: 20px;
-}
-
-.name-contact {
-    text-align: center;
-}
-
-.fa-instagram, .fa-linkedin {
-    color: #191970;
-    text-align: center;
-} 
 
 #location-button {
     margin-left: 8px;
@@ -98,11 +45,73 @@ h2 {
     background-color:#a1c4fd;
 }
 
-#description {
-    padding-left: 10px;
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* right column-descriptions in the top weather app */
+.right-hand-side, .right-hand-bott {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 18px;
+    display: block;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.right-hand-side {
+    padding-top: 25px;
+}
+
+.right-hand-bott {
+    padding-top: 15px;
+}
+
+/* left column-city and temp */
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 12px;
+    margin-bottom: 0px;
+    display: block;
+    margin: 0 auto;
+}
+
+#temperature {
+    padding-top: 20px;
+    padding-left: 8px;
+    font-size: 36px;
+}
+
+.units {
+    font-size: 16px;
+    position: relative;
+    top: -10px;
 }
 
 #day-descrip:first-letter, #time-updated:first-letter {
     text-transform: capitalize;
 }
+
+/* bottom forecast */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* footer */
+.name-contact {
+    text-align: center;
+}
+
+.fa-instagram, .fa-linkedin {
+    color: #191970;
+    text-align: center;
+} 
+
 
