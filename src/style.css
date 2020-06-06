@@ -102,7 +102,7 @@ h2 {
     padding-left: 10px;
 }
 
-#day-descrip {
+#day-descrip:first-letter, #time-updated:first-letter {
     text-transform: capitalize;
 }
 
