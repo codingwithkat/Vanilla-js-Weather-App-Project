@@ -14,23 +14,20 @@
     <div class="container">
         <div class="weather-app-border">
             <h1>New York</h1>
-            <ul>
-                <li>Friday 05:00</li>
-                <li>
-                    Clear Day
-                </li>
-            </ul>
+            <div class="clearfix weather-temperature">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="Clear" id="icon" />
+                <strong id="temperature">25</strong><span class="units"><a href="#" id="celsius-link"
+                        class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
+            </div>
             <div class="row">
                 <div class="col-6">
-                    <div class="clearfix weather-temperature">
-                        <img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="Clear" id="icon"
-                            class="float-left" />
-                        <div class="float-left">
-                            <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link"
-                                    class="active">°C</a> |
-                                <a href="#" id="fahrenheit-link">°F</a></span>
-                        </div>
-                    </div>
+                    <ul>
+                        <li>Friday 05:00</li>
+                        <li>
+                            Clear Day
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-6">
                     <ul>
@@ -46,15 +43,14 @@
                     </ul>
                 </div>
             </div>
-            <small>
-                <a href="https://github.com/codingwithkat/Vanilla-Weather-App" target="_blank">Open-source code</a>,
-                by
-                Katerina Papaloukas
-            </small>
-
         </div>
+        <span class="myName">
+            <small>
+                <a href="https://github.com/codingwithkat/Vanilla-Weather-App" target="_blank">Open-source
+                    code</a>, by Katerina Papaloukas
+            </small>
+        </span>
     </div>
-
     <script src="src/app.js"></script>
 </body>
 
