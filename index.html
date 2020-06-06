@@ -13,20 +13,28 @@
 <body>
     <div class="container">
         <div class="weather-app-border">
-            <h1>📍 New York</h1>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Current Location</button>
+                <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button id="location-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Current
+                    Location</button>
             </form>
-            <div class="clearfix current-temperature">
-                <span class="today-icon">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="Clear" id="icon" />
-                </span>
-                <strong id="temperature">25</strong><span class="units"><a href="#" id="celsius-link"
-                        class="active">°C</a> |
-                    <a href="#" id="fahrenheit-link">°F</a></span>
+            <div class="row">
+                <div class="col-6">
+                    <h1>📍 New York</h1>
+                </div>
+                <div class="col-6">
+                    <div class="clearfix current-temperature">
+                        <span class="today-icon">
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/rain.png" alt="Clear" id="icon" />
+                        </span>
+                        <strong id="temperature">25</strong><span class="units"><a href="#" id="celsius-link"
+                                class="active">°C</a> |
+                            <a href="#" id="fahrenheit-link">°F</a></span>
+                    </div>
+                </div>
             </div>
+
             <div class="row">
                 <div class="col-6">
                     <ul>

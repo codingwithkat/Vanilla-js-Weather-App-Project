@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+    padding-top: 20px;
     font-size: 36px;
     line-height: 40px;
     font-weight: bolder;
@@ -39,16 +40,18 @@ li {
 }
 
 .current-temperature {
+    padding-top: 20px;
     display: block;
     margin: 0 auto;
     text-align: center;
 }
 .today-icon {
     font-size: larger;
+    float: left;
 }
 
 #temperature {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .units {
@@ -61,4 +64,14 @@ li {
     display: block;
     margin: 0 auto;
     text-align: center;
+}
+
+#search-button, #location-button {
+    color: #191970;
+    border: 1px solid #191970;
+}
+
+
+#search-button:hover, #location-button {
+    background-color: #F5F5F5;
 }
