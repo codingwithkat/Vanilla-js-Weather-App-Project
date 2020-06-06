@@ -1,13 +1,21 @@
 body {
+    padding-top: 35px;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #faeee7;
 }
 
-.weather-app-border {
+.weather-app-border, .forecast {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     max-width: 600px;
     margin: 30px auto;
+    margin-bottom: auto;
     border: 2px solid #191970;
     border-radius: 15px;
     padding: 20px;
+}
+
+.forecast {
+    margin: 10px auto;
 }
 
 h1 {
@@ -24,16 +32,23 @@ ul {
     padding: 0;
 }
 
-li {
+.col-6 li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
+    padding-left: 30px;
+    font-size: 20px;
     line-height: 21px;
-    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .form-inline {
+    padding-top: 10px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -46,12 +61,15 @@ li {
     text-align: center;
 }
 .today-icon {
-    font-size: larger;
     float: left;
 }
 
 #temperature {
     font-size: 36px;
+}
+
+#description {
+    padding-top: 5px;
 }
 
 .units {
@@ -72,6 +90,6 @@ li {
 }
 
 
-#search-button:hover, #location-button {
+#search-button:hover, #location-button:hover {
     background-color: #F5F5F5;
 }
