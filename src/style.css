@@ -78,17 +78,19 @@ h2 {
     top: -10px;
 }
 
-.myName {
-    display: block;
-    margin: 0 auto;
+.name-contact {
     text-align: center;
 }
+
+.fa-instagram, .fa-linkedin {
+    color: #191970;
+    text-align: center;
+} 
 
 #search-button, #location-button {
     color: #191970;
     border: 1px solid #191970;
 }
-
 
 #search-button:hover, #location-button:hover {
     background-color: #F5F5F5;
