@@ -68,6 +68,13 @@ ul {
     padding-top: 15px;
 }
 
+.units-2 {
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+
+}
+
 /* left column-city and temp */
 
 h1 {
@@ -93,6 +100,10 @@ h1 {
     top: -10px;
 }
 
+#icon {
+    width: 25%;
+}
+
 #day-descrip:first-letter, #time-updated:first-letter {
     text-transform: capitalize;
 }
@@ -113,5 +124,3 @@ h2 {
     color: #191970;
     text-align: center;
 } 
-
-
