@@ -47,9 +47,30 @@ function submitButton(event) {
     search(cityInput.value);
 }
 
-search("Miami");
+function showCelsiusTemp(event) {
+    event.preventDefault();
+    let celsiusTemp = (83 − 32) * 5 / 9;
+    alert(celsiusTemp);
+}
 
-
+function showFahrenheitTemp(event) {
+    event.preventDefault();
+    alert("F clicked");
+}
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", submitButton);
+
+//Celsius and Fahrenheit for temp on the left 
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", showCelsiusTemp);
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", showFahrenheitTemp);
+
+//Celsius and Fahrenheit for feels like on the right(description)
+let celsiusLinkTwo = document.querySelector("#celsius-link-two");
+celsiusLinkTwo.addEventListener("click", showCelsiusTemp);
+
+let fahrenheitLinkTwo = document.querySelector("#fahrenheit-link-two");
+fahrenheitLinkTwo.addEventListener("click", showFahrenheitTemp);
