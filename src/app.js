@@ -33,10 +33,23 @@ function showTodaysStats(response) {
     document.querySelector("#icon").setAttribute("alt", response.data.weather[0].description);
 }
 
-let apiKey = "09fda6f90b159be94949753225d9045d";
-let city = "Atlanta";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+function search(city) {
+    let apiKey = "09fda6f90b159be94949753225d9045d";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
-axios.get(apiUrl).then(showTodaysStats); //keep outside of function 
+    axios.get(apiUrl).then(showTodaysStats);
+}
 
 
+function submitButton(event) {
+    event.preventDefault();
+    let cityInput = document.querySelector("#city-input");
+    search(cityInput.value);
+}
+
+search("Miami");
+
+
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", submitButton);
