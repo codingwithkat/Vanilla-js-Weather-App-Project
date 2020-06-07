@@ -15,12 +15,23 @@
 <body>
    <div class="container">
       <div class="weather-app-border">
-         <h2> Today's Weather</h2>
-         <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="Search">
-            <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            <button id="location-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">📍Current
-               Location</button>
+         <h2 class="curr"> Current Forecast</h2>
+
+         <form class="search-form" id="search-form">
+            <div class="row">
+               <div class="col-6">
+                  <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
+                     class="form-control mr-sm-2" />
+               </div>
+               <div class="col-3">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">🌎Search
+                  </button>
+               </div>
+               <div class="col-3">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                     id="location-button">📍Current</button>
+               </div>
+            </div>
          </form>
 
          <div class="row">
@@ -35,7 +46,6 @@
                   <li>
                      <span id="date"> </span>
                   </li>
-
                   <li id="day-descrip">
                   </li>
                </ul>

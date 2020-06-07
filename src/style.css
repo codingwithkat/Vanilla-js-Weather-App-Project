@@ -7,6 +7,11 @@ body {
     background-color: #faeee7;
 }
 
+.curr {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
 .weather-app-border, .forecast {
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     max-width: 600px;
@@ -22,17 +27,6 @@ body {
 }
 
 /* within the web app, the search bar and buttons */
-
-.form-inline {
-    padding-top: 10px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#location-button {
-    margin-left: 8px;
-}
 
 #search-button, #location-button {
     background-color: #191970;
