@@ -19,15 +19,15 @@
 
          <form class="mb-2" id="search-form">
             <div class="row">
-               <div class="col-6">
+               <div class="col-4">
                   <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
                      class="form-control mr-sm-2" />
                </div>
-               <div class="col-3">
+               <div class="col-4">
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">🌎Search
                   </button>
                </div>
-               <div class="col-3">
+               <div class="col-4">
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
                      id="location-button">📍Current</button>
                </div>
@@ -46,8 +46,6 @@
                   <li>
                      <span id="date"> </span>
                   </li>
-                  <li id="day-descrip">
-                  </li>
                </ul>
             </div>
          </div>
@@ -56,18 +54,13 @@
             <div class="col-6">
                <strong id="temperature"></strong>
                <span class="units">
-                  <a href="" id="fahrenheit-link" class="active">°F</a> |<a href="" id="celsius-link">°C</a>
+                  <a href="#" id="celsius-link" class="active">°C</a>|<a href="#" id="fahrenheit-link">°F</a>
                </span>
                <img src="#" alt="" id="icon" />
             </div>
             <div class="col-6">
                <ul class="right-hand-bott">
-                  <li>
-                     Feels Like:<span id="feels-like"></span>
-                     <span class="units-2">
-                        <a href="" id="fahrenheit-link-two" class="active">°F</a>|<a href=""
-                           id="celsius-link-two">°C</a>
-                     </span>
+                  <li id="day-descrip">
                   </li>
                   <li>
                      Humidity:<span id="humidity"></span>%

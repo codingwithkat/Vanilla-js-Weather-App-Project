@@ -29,6 +29,7 @@ body {
 /* within the web app, the search bar and buttons */
 
 #search-button, #location-button {
+    width: 100%;
     background-color: #191970;
     color: #a1c4fd;
     border: 1px solid #191970;
@@ -55,7 +56,7 @@ ul {
 }
 
 .right-hand-side {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .right-hand-bott {
@@ -92,6 +93,15 @@ h1 {
     font-size: 16px;
     position: relative;
     top: -10px;
+}
+
+.units .active {
+    color: #191970;
+    cursor: pointer;
+}
+
+.units .active:hover {
+    text-decoration: none;
 }
 
 #icon {
