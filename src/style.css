@@ -7,7 +7,7 @@ body {
     background-color: #faeee7;
 }
 
-.curr {
+.curr-forecast {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -86,13 +86,13 @@ h1 {
 #temperature {
     padding-top: 20px;
     padding-left: 8px;
-    font-size: 36px;
+    font-size: 60px;
 }
 
 .units {
     font-size: 16px;
     position: relative;
-    top: -10px;
+    top: -25px;
 }
 
 .units .active {
@@ -103,9 +103,9 @@ h1 {
 .units .active:hover {
     text-decoration: none;
 }
-
-#icon {
-    width: 25%;
+ 
+float-left {
+    float: left!important;
 }
 
 #day-descrip:first-letter, #time-updated:first-letter {
@@ -128,3 +128,18 @@ h2 {
     color: #191970;
     text-align: center;
 } 
+
+h3 {    
+    font-size: 18px;
+}
+
+weather-forecast-temp {
+    font-size: 22px;
+}
+
+weather-forecast img {
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 48px;
+}
