@@ -118,23 +118,4 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsiusTemp);
 
-function showPosition(position) {
-    let lat = position.coords.latitude;
-    let lon = position.coords.longitude;
-    let apiKey = "09fda6f90b159be94949753225d9045d";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
-    axios.get(`${apiUrl}`).then(showTodaysStats);
-
-    apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
-    axios.get(`${apiUrl}`).then(showForecast);
-}
-
-function getCurrentPosition() {
-    event.preventDefault();
-    navigator.geolocation.getCurrentPosition(showPosition);
-}
-
-let button = document.querySelector("#location-button");
-button.addEventListener("click", getCurrentPosition);
-
 search("Rethymno");

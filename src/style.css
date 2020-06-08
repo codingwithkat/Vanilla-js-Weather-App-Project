@@ -1,17 +1,13 @@
 /* main parts */
 
 body {
-    padding-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: #191970;
     background-color: #faeee7;
 }
 
-.curr-forecast {
-    text-align: center;
-    font-size: 22px;
-    font-weight: bold;
-}
 .weather-app-border, .forecast {
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     max-width: 600px;
@@ -19,7 +15,7 @@ body {
     margin-bottom: auto;
     border: 2px solid #191970;
     border-radius: 15px;
-    padding: 20px;
+    padding: 18px;
 }
 
 .forecast {
@@ -28,14 +24,14 @@ body {
 
 /* within the web app, the search bar and buttons */
 
-#search-button, #location-button {
+#search-button{
     width: 100%;
     background-color: #191970;
     color: #a1c4fd;
     border: 1px solid #191970;
 }
 
-#search-button:hover, #location-button:hover {
+#search-button:hover {
     color: #191970;
     background-color:#a1c4fd;
 }
@@ -46,21 +42,32 @@ ul {
 }
 
 /* right column-descriptions in the top weather app */
+
+
 .right-hand-side, .right-hand-bott {
     list-style-type: none;
-    font-size: 20px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 20px;
     display: block;
     margin: 0 auto;
+    text-align: left;
     word-wrap: break-word;
+    padding-left: 25px;
 }
 
 .right-hand-side {
     padding-top: 15px;
 }
+.right-hand-side small {
+    font-size: 14px;
+}
 
 .right-hand-bott {
     padding-top: 15px;
+}
+
+#date {
+    font-weight: bold;
 }
 
 .units-2 {
@@ -142,4 +149,5 @@ weather-forecast img {
     margin: 0 auto;
     height: 48px;
     width: 48px;
+    margin-right: 5px;
 }
