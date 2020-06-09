@@ -15,37 +15,22 @@
 <body>
    <div class="container">
       <div class="weather-app-border">
-         <form class="mb-2" id="search-form">
+         <form id="search-form" class="mb-3">
             <div class="row">
-               <div class="col-8">
-                  <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
-                     class="form-control mr-sm-2" />
+               <div class="col-9">
+                  <input type="search" placeholder="Type a city.." class="form-control" id="city-input"
+                     autocomplete="off" />
                </div>
-               <div class="col-4">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">🌎Search
-                  </button>
+               <div class="col-3">
+                  <input type="submit" value="🌎Search" class="btn btn-primary w-100" />
                </div>
             </div>
          </form>
 
-         <div class="row">
-            <div class="col-6">
-               <h1 id="selected-city"></h1>
-            </div>
-            <div class="col-6">
-               <ul class="right-hand-side">
-                  <li id="time-updated">
-                     <small>Last updated:</small>
-                  </li>
-                  <li>
-                     <span id="date"> </span>
-                  </li>
-               </ul>
-            </div>
-         </div>
+         <h1 id="selected-city"></h1>
 
          <div class="row" id="description">
-            <div class="col-6">
+            <div class="col-7">
                <img src="#" alt="" id="icon" class="float-left" />
                <strong id="temperature"></strong>
                <span class="units">
@@ -53,8 +38,14 @@
                </span>
             </div>
 
-            <div class="col-6">
-               <ul class="right-hand-bottom">
+            <div class="col-5">
+               <ul class="right-hand-side">
+                  <li id="time-updated">
+                     <small>Last updated:</small>
+                  </li>
+                  <li>
+                     <span id="date"> </span>
+                  </li>
                   <li id="day-descrip">
                   </li>
                   <li>

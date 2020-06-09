@@ -20,25 +20,22 @@ body {
     margin: 13px auto;
 }
 
-#search-button{
-    width: 100%;
+.btn-primary{
+    font-size: 16px;
     background-color: #191970;
     color: #a1c4fd;
     border: 1px solid #191970;
 }
 
-#search-button:hover {
+.btn-primary:hover {
     color: #191970;
     background-color:#a1c4fd;
 }
 
 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.right-hand-side, .right-hand-bottom {
-    list-style-type: none;
     font-size: 22px;
     line-height: 24px;
     text-align: left;
@@ -49,10 +46,6 @@ ul {
 }
 .right-hand-side small {
     font-size: 14px;
-}
-
-.right-hand-bottom {
-    padding-top: 15px;
 }
 
 #date {
@@ -70,7 +63,6 @@ h1 {
     font-size: 36px;
     font-weight: bolder;
     text-align: left;
-    padding-top: 10px;
     padding-left: 12px;
     margin-bottom: 0px;
     display: block;
@@ -99,8 +91,8 @@ h1 {
     text-decoration: none;
 }
  
-float-left {
-    float: left!important;
+float-right {
+    float: right!important;
 }
 
 #day-descrip:first-letter, #time-updated:first-letter {
