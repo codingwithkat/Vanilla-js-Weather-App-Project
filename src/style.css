@@ -22,11 +22,12 @@ body {
 
 #search-form {
     margin-left: 10px;
-    text-align: center;
 }
 .btn-primary{
     margin-right: 20px;
-    font-size: 16px;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 14px;
     background-color: #191970;
     color: #a1c4fd;
     border: 1px solid #191970;
@@ -111,6 +112,10 @@ h2 {
     font-weight: bold;
 }
 
+#forecast-data {
+    text-align: justify;
+}
+
 .name-contact {
     text-align: center;
 }
@@ -126,4 +131,6 @@ h3 {
 
 #hourly img {
     width: 100%;
+    display: block;
+    margin: 0 auto;
 }
