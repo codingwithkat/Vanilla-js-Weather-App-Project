@@ -20,6 +20,12 @@ body {
     margin: 13px auto;
 }
 
+#search-form {
+    display: block;
+    margin: 0 auto;
+    padding-left: 100px;
+    text-align: center;
+}
 .btn-primary{
     font-size: 16px;
     background-color: #191970;
@@ -43,6 +49,7 @@ ul {
 
 .right-hand-side {
     padding-top: 15px;
+    padding-right: 10px;
 }
 .right-hand-side small {
     font-size: 14px;
