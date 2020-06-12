@@ -21,11 +21,11 @@ body {
 }
 
 #search-form {
-    display: block;
-    margin: 0 auto;
+    margin-left: 10px;
     text-align: center;
 }
 .btn-primary{
+    margin-right: 20px;
     font-size: 16px;
     background-color: #191970;
     color: #a1c4fd;
