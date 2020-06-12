@@ -113,7 +113,12 @@ h2 {
 }
 
 #forecast-data {
-    text-align: justify;
+    text-align: left;
+}
+
+#hourly {
+    text-align: left;
+    padding-right: 10px;
 }
 
 .name-contact {
