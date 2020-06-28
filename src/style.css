@@ -112,11 +112,12 @@ h2 {
     font-weight: bold;
 }
 
-#forecast-data {
+/* #forecast-data {
     text-align: left;
+    margin: 0 auto;
     padding-right: 5px;
-    padding-left: 20px;
-}
+    padding-left: 30px;
+} */
 
 #hourly {
     text-align: left;
