@@ -113,8 +113,8 @@ h2 {
 }
 
 #forecast-data {
-    text-align: left;
-    padding-right: 20px;
+    /* text-align: left; */
+    padding-right: 5px;
     padding-left: 20px;
 }
 
